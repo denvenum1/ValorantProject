@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { Characters } from '../../interface';
-import { getCharacters, searchAndSortCharacters, sortFields, sortDirections,getCharacterById, updateCharacter, loginUser, registerUser} from '../../database';
+import { Characters } from '../interface';
+import { getCharacters, searchAndSortCharacters, sortFields, sortDirections,getCharacterById, updateCharacter, loginUser, registerUser} from '../database';
 import dotenv from "dotenv";
 
 dotenv.config();
