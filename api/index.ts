@@ -1,8 +1,8 @@
 import express from "express";
-import router from "../public/router/routers";
+import router from "../router/routers";
 import { connect } from '../database';
-import { errorHandler } from "../public/middleware/middleware";
-import session from "../public/middleware/session";
+import { errorHandler } from "../middleware/middleware";
+import session from "../middleware/session";
 import createServerlessHandler from "@vendia/serverless-express";
 
 
